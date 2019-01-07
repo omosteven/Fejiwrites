@@ -1,0 +1,58 @@
+div.body-container .main .poem{
+    margin-top:0;
+    margin-right: 3%;
+    width:67%;
+    float:left;
+}
+div.body-container .main .poem .upper-part{
+    background-color: white;
+    padding-top:2em;
+    padding-left:1em;
+    padding-right:1em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-style: none;
+    border-color: #f15d5d;
+    border-top-style: solid;
+    border-bottom-style: solid ;
+    border-width: thick;
+    line-height: 40px;
+}
+div.body-container .main .poem .upper-part a{
+    color:#c53535;
+}
+div.body-container .main .poem .upper-part a:hover{
+    color:#ffa6a6;
+}
+.poem .lower-part{
+    border-style: none;
+}
+.poem .lower-part .whitespace{
+    height:40px;
+    background-color: white;
+    border-style: none;
+    border-color: #f15d5d;
+    border-bottom-style: solid;
+    border-width: thick;
+}
+/* mobile view accumulates */
+@media screen and (max-width:750px){
+    div.body-container div.main div.poem{
+        width:60%;
+    }
+    div.body-container div.main div.adverts-others{
+        width:35%;
+    }
+}
+@media screen and (max-width:530px){
+    div.body-container div.main div.poem{
+        width:100%;
+        float:none;
+        clear:both;
+    }
+    div.body-container div.main div.adverts-others{
+        width:100%;
+        float:none;
+        clear:both;
+    }
+}
