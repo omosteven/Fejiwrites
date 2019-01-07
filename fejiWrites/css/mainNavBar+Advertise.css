@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face{
+    src: url("../fonts/gudea/Gudea-Bold.otf");
+    font-family: gudea;
+}
+@font-face{
+    src:url("../fonts/gudea/Gudea-Italic.otf");
+    font-family: gudeaItalic;
+}
+@font-face{
+    src: url("../fonts/gudea/Gudea-Regular.otf");
+    font-family: gudeaRegular
+}
+body{
+    background-image: url("../images/background.png");
+    background-attachment: scroll; 
+}
+body div.body-container{
+    width:70%;
+    margin:auto;
+    padding:0;
+}
+h2{
+    font-family: gudeaRegular;
+}
+/* mobile view */
+@media screen and (max-width:695px){
+    body div.body-container{
+        width:85%;
+    }
+}
+
+/*  mobile view ends */ 
+div.body-container div.header{
+    font-family: gudea;
+    color:#f15d5d;
+    text-align: center;
+}
+div.body-container div.header h1{
+    margin:0;
+    font-size: 60px;
+    color:black;
+}
+/* mobile view for header */
+@media screen and (max-width:367px){
+    div.body-container div.header h1{
+        font-size: 40px;
+    }
+}
+/* mobile view for header ends */
+div.body-container div.nav-bar{
+    width:100%;
+    background-color: #f15d5d;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+}
+div.body-container div.nav-bar a, div.nav-bar-story a{
+    display:inline-block;
+    font-family: gudeaRegular;
+    padding:0.3em;
+    color:white;
+    /* font-size: 12px; */
+}
+div.body-container div.nav-bar a:hover{
+    background-color: rgb(180, 173, 173);
+}
+div.body-container div.nav-bar-story{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom:0;
+}
+div.body-container div.nav-bar-story a{
+    color:#f15d5d;
+    font-weight: bold;
+}
+div.body-container div.nav-bar-story a:hover{
+    color:#ffa6a6
+}
+
+div.body-container div.main div.adverts-others{
+    width:30%;
+    float:right;
+}
+div.body-container div.main div.adverts-others .social-media{
+    padding-bottom:0.7em;
+    padding-right: 0.5em;
+    padding-left:0.5em;
+    background-color: white;
+    font-size: 27px;
+}
+div.body-container div.main div.adverts-others .search{
+    background-color:white;
+    margin-top:1em;
+    padding:0.5em;
+    padding-top:0.7em;
+    padding-bottom: 0.7em;
+}
+div.body-container div.main div.adverts-others .advertisement,
+div.adverts-others .fejiwrites-songs,
+div.adverts-others .fejiwrites-videos,
+div.adverts-others .subscribe-fejiWrites,
+div.adverts-others .featured-post, 
+div.adverts-others .book-awareness,
+div.adverts-others .pages-link,
+div.adverts-others .newBooks-store,
+div.adverts-others .buy-fejiwrites-books,
+div.adverts-others .google-search,
+div.adverts-others .most-read-stories,
+div.adverts-others .complete-season,
+div.adverts-others .place-ad,
+div.adverts-others .contact,
+div.adverts-others .copyright,
+div.adverts-others .support,
+div.adverts-others .ongoing-stories,
+div.adverts-others .upcoming-stories,
+div.adverts-others .Caveat,
+div.adverts-others .note,
+div.adverts-others .disclaimer,
+div.adverts-others .never-miss-sub,
+div.adverts-others .like-facebook,
+div.adverts-others .follow-staff,
+div.adverts-others .top-commenters,
+div.adverts-others .top-commenters-list{
+    background-color: white;
+    margin-top:1em;
+    padding:0.3em;
+    padding-left: 0.5em;
+    padding-bottom: 0.7em;
+    padding-top:0.7em;
+
+}
+div.body-container div.main div.adverts-others .advertisement img, 
+.fejiwrites-songs img, 
+.featured-post img, 
+.book-awareness img,
+.newBooks-store img,
+.buy-fejiwrites-books img,
+.complete-season img,
+.support img,
+.place-ad img{
+    display: block;
+    width:100%;
+    background-color: #f15d5d;
+}
+div.adverts-others .subscribe-fejiWrites img{
+    display: inline-block;
+    width:70%;
+    height:50px;
+}
+div.body-container div.main div.adverts-others .pages-link a, 
+div.adverts-others .ongoing-stories a,
+div.adverts-others .upcoming-stories a{
+    display: block;
+    color:#ff5656;
+}
+
+div.body-container div.main div.adverts-others .pages-link a:hover,
+div.adverts-others .ongoing-stories a:hover,
+div.adverts-others .upcoming-stories a:hover{
+    color:#ffa6a6
+}
+div.adverts-others .ongoing-stories a,
+div.adverts-others .upcoming-stories a{
+    margin-bottom: 1em;
+}
+/* mobile view for all */
+@media screen and (max-width:627px){
+    div.body-container div.main div.main-instructions{
+        width:60%;
+    }
+    div.body-container div.main div.adverts-others{
+        width:35%;
+    }
+}
+@media screen and (max-width:530px){
+    div.body-container div.main div.main-instructions{
+        width:100%;
+        float:none;
+        clear:both;
+    }
+    div.body-container div.main div.adverts-others{
+        width:100%;
+        float:none;
+        clear:both;
+    }
+}
+/* mobile view for all ends */
